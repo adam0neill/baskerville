@@ -56,3 +56,62 @@ blockquote {
 
 }
 
+blockquote cite {
+    font-style: normal;
+    font-size: 1.5rem;
+    color:rebeccapurple;
+}
+
+/*-- Styling Links --*/
+a {
+    color:rebeccapurple;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: rebeccapurple;
+    border-bottom: 1px dotted;
+}
+
+/*-- Navigation --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    padding: 1.5rem 0;
+    background-color: rgb(189, 182, 223);
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    background: none;
+}
+
+nav a { 
+    color:#f7f7f7;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color:rgb(212, 221, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Styling the footer--*/
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
+}
