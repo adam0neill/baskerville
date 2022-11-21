@@ -65,6 +65,10 @@ blockquote cite {
     color:rebeccapurple;
 }
 
+.leader {
+    text-transform: uppercase;
+}
+
 /*-- Styling Links --*/
 a {
     color:rebeccapurple;
@@ -144,10 +148,20 @@ table, td {
     border: 2px solid #f7f7f7;
 }
 
+hr {
+    margin: 60px 0;
+    height: 1px;
+    color: rebeccapurple;
+    background-color: rebeccapurple;
+    border: none 0;
+}
+
 /*-- Images --*/
 img {
     display: block;
     margin: 4rem 0 2em 0;
+    padding: 0;
+    max-width: 100%;
 }
 
 /*-- Styling the footer--*/
