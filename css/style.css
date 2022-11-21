@@ -112,6 +112,44 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+
+/*--Styling table--*/
+table{
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+caption{ 
+    margin: 1.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    color:rgb(212, 221, 255);
+    background: rgb(133, 90, 177);
+}
+
+th, td {padding: 0.4em;}
+
+table, td { 
+    background:rgb(212, 212, 225);
+    border: 2px solid #f7f7f7;
+}
+
+/*-- Images --*/
+img {
+    display: block;
+    margin: 4rem 0 2em 0;
+}
+
 /*-- Styling the footer--*/
 footer {
     text-align: center;
