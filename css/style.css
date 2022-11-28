@@ -216,3 +216,15 @@ footer {
     footer .connections a:hover svg path {
     fill: #bbc4f0;
     transition: all 0.2s ease-in-out;}
+
+    
+    @media (max-width: 400px) {
+        body {
+            margin: auto;
+            font-size: 110%; 
+        }
+
+        article {
+            width: 90%;
+        }
+    }
